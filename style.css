@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+:root {
+    --Almost-White: hsl(0, 0%, 98%);
+    --Medium-Gray: hsl(0, 0%, 41%);
+    --Almost-Black: hsl(0, 0%, 8%);
+    --font: 1.6rem;
+}
+
+
+header{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.2rem 2rem 3.2rem 2rem;
+}
+.Cover-photo img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fill; 
+}
+
+.main__title{
+    font-size: 3.6rem;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    margin-block-start: 4rem;
+    padding: 0 1.2rem 2rem 1.2rem;
+    text-align: center;
+}
+.main__paragraph{
+    font-size: 1.6rem;
+    font-family: 'Epilogue', sans-serif;
+    text-align: center;
+    line-height: 2.4rem;
+    padding: 0 2rem ;
+    color: var(--Medium-Gray);
+}
+.main__button-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 2.4rem;
+}
+button{
+    width: 12.9rem;
+    height: 4.4rem;
+    border-radius: 1.4rem;
+    color: var(--Almost-White);
+    background-color: var(--Almost-Black);
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+.footer-container{
+    display: flex;
+    margin-block-start: 3rem;
+    justify-content: space-around;
+}
+.footer-container figure img{
+    width: 6.6rem;
+}
